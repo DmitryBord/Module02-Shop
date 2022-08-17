@@ -36,9 +36,13 @@
 				</ul>
 			</nav>
 			<a href="tel:+79453425555" class="header__tel">+7 945 342 55 55</a>
-			<button class="header__cart">
-				<span class="header__counter">0</span>
-			</button>
+			<div class="header__buttons">
+				<a href="tel:+79453425555" class="header__phone"></a>
+				<button class="header__menu"></button>
+				<button class="header__cart">
+					<span class="header__counter">0</span>
+				</button>
+			</div>
 		</header>
 		<div class="container">
 			<div class="main__flex">
@@ -47,10 +51,14 @@
 						<span class="title__span">это просто!</span>
 					</h2>
 					<div class="main__item">
-						<p class="description description_size-s">
-							Сеть магазинов полезных продуктов питания, производство которых основано на&nbsp;принципах
-							и&nbsp;стандартах органического чистых продуктов
-						</p>
+						<div class="main__description">
+							<p class="description description_size-s">
+								Сеть магазинов полезных продуктов питания, производство которых основано
+								на&nbsp;принципах
+								и&nbsp;стандартах органического чистых продуктов
+							</p>
+						</div>
+						<img class="main__imagemobi" src="images/main_plate.png" alt="">
 						<div class="main__link">
 							<a href="#" class="link">Перейти в каталог</a>
 						</div>
@@ -58,7 +66,7 @@
 				</div>
 				<div class="main__cover">
 					<div class="main__line">
-						<img class="main__image" src="images/plate_x2.png" alt="">
+						<img class="main__image" src="images/main_plate.png" alt="">
 					</div>
 					<button class="main__btn main__btn_1" type="button">
 						<span class="main__food">Авокадо</span>134 руб
@@ -165,10 +173,12 @@
 			<div class="about__box">
 				<div class="about__text">
 					<p class="description description_size-s">
-						Мы полностью контролируем весь цикл производства – от поля до<br> прилавка&nbsp;за счет
+						Мы полностью контролируем весь цикл производства – от&nbsp;поля
+						до прилавка&nbsp;за&nbsp;счет
 						собственной
 						серьезной
-						материальной и научной базы.<br> Наш&nbsp;подход направлен на высокие технологии и достижения
+						материальной и научной базы. Наш&nbsp;подход направлен на&nbsp;высокие технологии
+						и&nbsp;достижения
 						научного&nbsp;прогресса
 					</p>
 				</div>
@@ -208,7 +218,7 @@
 									<input class="counter__input" type="text" value="0">
 									<button class="counter__btn counter__plus"></button>
 								</div>
-								<a href="#" class="link link_max">в корзину</a>
+								<a href="#" class="link link_max">в&nbsp;корзину</a>
 							</div>
 						</div>
 						<div class="swiper-slide ">
@@ -226,7 +236,7 @@
 									<input class="counter__input" type="text" value="0">
 									<button class="counter__btn counter__plus"></button>
 								</div>
-								<a href="#" class="link link_max">в корзину</a>
+								<a href="#" class="link link_max">в&nbsp;корзину</a>
 							</div>
 						</div>
 						<div class="swiper-slide ">
@@ -244,7 +254,7 @@
 									<input class="counter__input" type="text" value="0">
 									<button class="counter__btn counter__plus"></button>
 								</div>
-								<a href="#" class="link link_max">в корзину</a>
+								<a href="#" class="link link_max">в&nbsp;корзину</a>
 							</div>
 						</div>
 					</div>
@@ -298,7 +308,7 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
 				<div class="catalog-grid__item">
@@ -317,7 +327,7 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
 				<div class="catalog-grid__item">
@@ -337,7 +347,7 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
 				<div class="catalog-grid__item">
@@ -356,10 +366,11 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
-				<div class="catalog-grid__item">
+
+				<div class="catalog-grid__item mob">
 					<div class="catalog-grid__cover">
 						<img src="images/catalog/oil.jpg" alt="" class="catalog-grid__image catalog-grid__image_oil">
 					</div>
@@ -375,10 +386,10 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
-				<div class="catalog-grid__item">
+				<div class="catalog-grid__item mob">
 					<div class="catalog-grid__cover">
 						<img src="images/catalog/yogurt-2.jpg" alt=""
 							class="catalog-grid__image catalog-grid__image_yogurt-2">
@@ -395,10 +406,10 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
-				<div class="catalog-grid__item">
+				<div class="catalog-grid__item mob">
 					<div class="catalog-grid__cover">
 						<img src="images/catalog/chease.jpg" alt=""
 							class="catalog-grid__image catalog-grid__image_chease">
@@ -415,10 +426,10 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
-				<div class="catalog-grid__item">
+				<div class="catalog-grid__item mob">
 					<div class="catalog-grid__cover">
 						<img src="images/catalog/sous.jpg" alt="" class="catalog-grid__image catalog-grid__image_sous">
 					</div>
@@ -434,9 +445,10 @@
 							<input class="counter__input counter__input_min" type="text" value="0">
 							<button class="counter__btn counter__btn_min counter__plus"></button>
 						</div>
-						<a href="#" class="link link_min">в корзину</a>
+						<a href="#" class="link link_min">в&nbsp;корзину</a>
 					</div>
 				</div>
+
 			</div>
 			<button class="catalog__btn">Загрузить еще</button>
 		</div>
@@ -449,7 +461,7 @@
 			<div class="delivery__row">
 				<div class="delivery__text">
 					<p class="delivery__description">
-						Мы доставляем ваши заказы курьером в специально оборудованном транспорте.
+						Мы доставляем ваши заказы курьером в&nbsp;специально оборудованном транспорте.
 
 					</p>
 					<p class="delivery__description">
@@ -562,7 +574,11 @@
 									<a href="#" target="_blank" class="footer-social__link footer-social__vk"></a>
 									<a href="#" target="_blank" class="footer-social__link footer-social__inst"></a>
 									<a href="#" target="_blank" class="footer-social__link footer-social__fb"></a>
-
+								</li>
+								<li class="footer-social__mobi">
+									<a href="#" target="_blank" class="footer-social__link footer-social__vk"></a>
+									<a href="#" target="_blank" class="footer-social__link footer-social__inst"></a>
+									<a href="#" target="_blank" class="footer-social__link footer-social__fb"></a>
 								</li>
 							</ul>
 						</div>
