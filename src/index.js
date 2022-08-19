@@ -71,3 +71,7 @@ var swiper = new Swiper(".trendsSwiper", {
 	}
 });
 
+
+
+
+
