@@ -308,6 +308,7 @@ a {
 		color: $green;
 		text-decoration: none;
 		border-bottom: 1px solid $green;
+		transition: none;
 	}
 }
 
@@ -903,7 +904,7 @@ a {
 	}
 
 	&_max {
-		padding: 2.5rem 5.3rem;
+		padding: 2.5rem 3.3rem;
 
 		@media (max-width: $r_mob_360) {
 			font-size: 1.25rem;
@@ -969,6 +970,10 @@ a {
 		z-index: 0;
 		transition: .2s;
 
+		@media (max-width:$r_desk_1280) {
+			padding: 3rem 2.7rem 4.2rem;
+		}
+
 		@media (max-width: $r_mob_360) {
 			padding: 2.5rem 5.6rem;
 		}
@@ -995,10 +1000,12 @@ a {
 				.swiper-slide__hover {
 					height: 233px;
 					opacity: 1;
+					animation: none;
 
 					@media (max-width:$r_mob_500) {
 						height: auto;
 					}
+
 				}
 
 
@@ -1078,7 +1085,6 @@ a {
 			@media (max-width:$r_mob_500) {
 				height: auto;
 				opacity: 1;
-
 			}
 
 			&_anim {
