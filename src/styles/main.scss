@@ -1291,7 +1291,9 @@ a {
 		align-items: center;
 		gap: 1.5rem;
 
+
 		&_fruits {
+
 			&::before {
 				content: '';
 				display: block;
@@ -1301,6 +1303,7 @@ a {
 				border: 1px solid rgba($green, .4);
 				border-radius: 100%;
 				box-sizing: border-box;
+				animation: circle 5s ease-in-out infinite;
 
 				@media (max-width:$r_minmob) {
 					width: 7.3rem;
@@ -1319,6 +1322,7 @@ a {
 				border: 1px solid rgba($green, .4);
 				border-radius: 100%;
 				box-sizing: border-box;
+				animation: circle 5s ease-in-out infinite;
 
 				@media (max-width:$r_minmob) {
 					width: 7.3rem;
@@ -1337,6 +1341,7 @@ a {
 				border: 1px solid rgba($green, .4);
 				border-radius: 100%;
 				box-sizing: border-box;
+				animation: circle 5s ease-in-out infinite;
 
 				@media (max-width:$r_minmob) {
 					width: 7.3rem;
@@ -2553,5 +2558,19 @@ footer {
 	100% {
 		height: 0px;
 		opacity: 0;
+	}
+}
+
+@keyframes circle {
+	0% {
+		border-radius: 100%;
+	}
+
+	50% {
+		border-radius: 0;
+	}
+
+	100% {
+		border-radius: 100%;
 	}
 }
